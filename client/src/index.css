@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.test-app {
+  max-width: 500px;
+  width: 100%;
+  margin: 100px auto 0;
+}
+
+.test-app>h1 {
+  color: #374957;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.test-app>* {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.test-app>*:not(:last-child),
+.test-app>form>* {
+  margin-bottom: 15px;
+}
+
+.test-app__form_item {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.test-app__form_item>label {
+  color: #818181;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+
+.test-app__form_item>input {
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #DEEAF3;
+  background: #FFF;
+  padding: 0 10px;
+  color: #374957;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.test-app>form>button {
+  border-radius: 5px;
+  background: #29CF51;
+  width: 100%;
+  height: 50px;
+  border: 1px solid transparent;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.test-app>form>button:hover {
+  background: #fff;
+  border: 1px solid #29CF51;
+  color: #29CF51;
+
+
+}
